@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/rdogroup">
+        <RadioButton
+            style="@style/RadioButton"
+            android:text="Rose"
+            android:id="@+id/rdoRose"
+            />
+        <RadioButton
+            style="@style/RadioButton"
+            android:text="River"
+            android:id="@+id/rdoRiver"/>
+
+    </RadioGroup>
+
+    <ImageView
+        style="@style/RadioButton"
+        android:id="@+id/imgShow"
+        />
+
+</LinearLayout>
